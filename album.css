@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#toggleArea {
+  padding-top: 50px;
+}
+
+.navbar .container {
+  max-width: 70rem;
+}
+
+#about {
+  color: whitesmoke !important;
+}
+
+.webdev {
+  padding-top: 60px;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: url("images/IMG_3617copylong.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1,
+h3 {
+  text-align: left;
+  font-weight: 600;
+  color: white;
+  /* text-shadow: 0 0 0.5px black; */
+}
+
+/* .webdev {
+  padding-top: 50px;
+} */
+
+.jumbotron .container {
+  max-width: 70rem;
+}
+
+.skills-list {
+  line-height: 75px;
+  font-size: 20px;
+  text-align: center;
+  width: 175px !important;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding-top: 10px;
+  float: none;
+  margin: 0 auto; /* Added */
+  margin-bottom: 10px;
+}
+
+#behance {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
